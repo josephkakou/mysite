@@ -31,6 +31,10 @@ a, a:hover {
 
 }
 
+.footer {
+       background-color: #FA8072;
+
+}
 .logo {
   color: #ffffff;
   text-transform: uppercase;
@@ -105,6 +109,15 @@ a, a:hover {
   text-align: center;
 
 }
+
+.para {
+     text-align: center;
+
+}
+
+
+
+
 /* portolio */
 
 /* contact */
