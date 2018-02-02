@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>night fiction en ligne</title>
+	<title>Code Rue en ligne</title>
 
 	<!--font-->
     <lien href = "https://fonts.googleapis.com/css?family= Titan + One " rel = "stylesheet">
@@ -16,11 +16,11 @@
 <!--headeur-->
 <header class="container-fluid header">
 	<div class="container">
-		<a href="#" class="logo">NIGHT FICTION</a>
+		<a href="#" class="logo">CODE RUE</a>
 		<nav class="menu">
-			<a href="#">Acceuil</a>
+			<a href="https://josephkakou.github.io/mysite/">Accueil</a>
 			<a href="#about">A propos</a>
-			<a href="#">Night fiction</a>
+			<a href="#">Modèle de site</a>
 			<a href="#">Contact</a>
 		</nav>
 	</div>
@@ -33,8 +33,8 @@
 		<img src="img/lolo.jpg" alt="bannière de site">
 	</div>
 	<div class="inner-banner">
-		<h1>Bienvenue sur NIGHT FICTION</h1>
-		<button class="btn btn-custom">Contactez moi!</button>
+		<h1>Bienvenue sur Code Rue</h1>
+		<a href="https://web.facebook.com/Joseph.Kakou"><button class="btn btn-custom">Contactez moi!</button></a>
 	</div>
 </section>
 
@@ -87,52 +87,80 @@
 
 <!--footer-->
 <footer class="container-fluid footer">
-    <div class="container">
-	<div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <div class="well well-sm">
-          <form class="form-horizontal" action="" method="post">
-          <fieldset>
-            <legend class="text-center">Contactez nous</legend>
-    
-            <!-- Name input-->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="name">Nom</label>
-              <div class="col-md-9">
-                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
-              </div>
+             <div class="container">
+              <div class="row">
+            <div class="col-sm-12 col-lg-12">
+                <h1 class="h1">
+                    Contactez-nous <small>N'hésitez pas à nous contacter</small></h1>
             </div>
-    
-            <!-- Email input-->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="email">Votre E-mail</label>
-              <div class="col-md-9">
-                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
-              </div>
-            </div>
-    
-            <!-- Message body -->
-            <div class="form-group">
-              <label class="col-md-3 control-label" for="message">Votre message</label>
-              <div class="col-md-9">
-                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
-              </div>
-            </div>
-    
-            <!-- Form actions -->
-            <div class="form-group">
-              <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-              </div>
-            </div>
-          </fieldset>
-          </form>
         </div>
-      </div>
-	</div>
+    </div>
 </div>
-	
-</footer>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Nom</label>
+                            <input type="text" class="form-control" id="name" placeholder="Entrer nom" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Adresse e-mail</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Entrer email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Sujet</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choisisser en un:</option>
+                                <option value="service">Service clientèle general</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Support produit</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            envoyer le message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Notre bureau</legend>
+            <address>
+                <strong>Twitter, Inc.</strong><br>
+                <abbr title="Phone">
+                    Tel:</abbr>
+                (+225) 88-51-67-55
+            </address>
+            <address>
+                <strong>E-mail</strong><br>
+                <a href="mailto:#">josephspace1@gmail.com</a>
+            </address>
+            </form>
+        </div>
+             </div>       
+
+      </footer>
 
 </body>
 </html>
